@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyDiary</string>
+    <string name="title_activity_map_location">Map</string>
+    <string name="mark_location">Mark diary location</string>
+    <string name="pick_location">Select diary location</string>
+    <string name="pick_fail">diary location not selected</string>
+
+</resources>

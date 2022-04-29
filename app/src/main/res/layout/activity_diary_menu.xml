@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hry"
+    tools:context=".Diary_Menu">
+
+    <Button
+        android:id="@+id/AddDiary"
+        android:layout_width="276dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/chewy"
+        android:text="ADD TO DIARY"
+        android:textColor="#CA6F70"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
+
+    <Button
+        android:id="@+id/ViewDiary"
+        android:layout_width="276dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/chewy"
+        android:text="VIEW DIARY"
+        android:textColor="#CA6F70"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddDiary"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <Button
+        android:id="@+id/set_pin"
+        android:layout_width="276dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/chewy"
+        android:text="ADD PIN NUMBER"
+        android:textColor="#CA6F70"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddDiary"
+        app:layout_constraintVertical_bias="0.205" />
+
+    <Button
+        android:id="@+id/lgout"
+        android:layout_width="276dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/chewy"
+        android:text="LOGOUT"
+        android:textColor="#CA6F70"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/set_pin"
+        app:layout_constraintVertical_bias="0.056" />
+</androidx.constraintlayout.widget.ConstraintLayout>
